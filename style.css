@@ -96,15 +96,125 @@ ul a:hover {
   font-weight: bold;
 }
 
-.image {
+.hero-image {
   flex: 1;
 }
 
-.image div {
+.hero-image div {
   width: 100%;
   height: 300px;
   background-color: gray;
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+.boxes {
+  width: 100%;
+  background-color: var(--white);
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.boxes h2 {
+  font-size: 36px;
+  color: var(--dark-blue);
+  font-weight: bold;
+  margin-top: 50px;
+}
+
+.boxes .container {
+  margin: 50px 0 100px 0;
+  width: 60vw;
+}
+
+.box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 18px;
+}
+
+.box .image {
+  width: 100px;
+  height: 100px;
+  border: 2px solid var(--light-blue);
+  border-radius: 10px;
+}
+
+.box p {
+  color: gray;
+}
+
+.quote-container {
+  width: 100%;
+  background-color: var(--light-gray);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.quote-container .container {
+  flex-direction: column;
+  width: 50vw;
+}
+
+.quote-container .container .quote {
+  font-size: 36px;
+  color: var(--dark-blue);
+  font-style: italic;
+} 
+
+.quote-container .container p {
+  align-self: flex-end;
+  color: var(--dark-blue);
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.action {
+  width: 100%;
+  background-color: var(--white);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.action .container {
+  background-color: var(--light-blue);
+  padding: 50px 100px;
+  border-radius: 10px;
+  justify-content: space-between;
+}
+
+.call h3{
+  color: var(--white);
+}
+
+.call p {
+  color: var(--light-gray);
+}
+
+.action .container button {
+  cursor: pointer;
+  outline: none;
+  border: none;
+  background-color: var(--light-blue);
+  color: var(--white);
+  border: 2px solid var(--white);
+  padding: 5px 25px;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+footer {
+  width: 100%;
+  background-color: var(--dark-blue);
+  text-align: center;
+  padding: 50px 0;
+  color: var(--white);
 }
